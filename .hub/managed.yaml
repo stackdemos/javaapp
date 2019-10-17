@@ -1,0 +1,65 @@
+parameters:
+  - name: application.description
+    value: Java microservice with Spring Boot
+  - name: application.humanName
+    value: javaapp
+  - name: application.ingress
+    value: javaapp.app.ml4.demo05.superhub.io
+  - name: application.name
+    value: javaapp
+  - name: application.namespace
+    value: applications
+  - name: application.path
+    value: /
+  - name: application.replicas
+    value: '1'
+  - name: author.email
+    value: demo05@superhub.io
+  - name: author.id
+    value: 00u3pt26n1KEQrpF22p7
+  - name: author.name
+    value: Demo05 User
+  - name: author.organization
+    value: DEMO05
+  - name: component.dex.okta.appId
+    value: 0oa51kmkqd5EwHU1a2p7
+  - name: component.dex.okta.clientId
+    value: 0oa51kmkqd5EwHU1a2p7
+  - name: component.dex.okta.issuer
+    value: 'https://agilestacks.okta.com'
+  - name: component.docker.auth.basic.username
+    value: admin
+  - name: component.docker.auth.host
+    value: ml4-harbor.svc.ml4.demo05.superhub.io
+  - name: component.docker.registry.image
+    value: ml4-harbor.svc.ml4.demo05.superhub.io/library/javaapp
+  - name: component.docker.registry.kind
+    value: harbor
+  - name: component.docker.registry.url
+    value: ml4-harbor.svc.ml4.demo05.superhub.io/library
+  - name: component.github.repository.name
+    value: javaapp
+  - name: component.github.repository.organization
+    value: stackdemos
+outputs:
+  - name: application.description
+  - name: application.humanName
+  - name: application.ingress
+  - name: application.name
+  - name: application.namespace
+  - name: application.path
+  - name: application.replicas
+  - name: author.email
+  - name: author.id
+  - name: author.name
+  - name: author.organization
+  - name: component.dex.okta.appId
+  - name: component.dex.okta.clientId
+  - name: component.dex.okta.issuer
+  - name: component.docker.auth.basic.username
+  - name: component.docker.auth.host
+  - name: component.docker.registry.image
+  - name: component.docker.registry.kind
+  - name: component.docker.registry.url
+  - name: component.github.repository.name
+  - name: component.github.repository.organization
